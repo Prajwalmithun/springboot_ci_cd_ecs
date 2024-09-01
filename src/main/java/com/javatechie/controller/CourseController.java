@@ -68,5 +68,8 @@ public class CourseController {
         return "Welcome! This is a Sprint Boot Microservice Application using AWS CI/CD Pipeline and deployed on ECS";
     }
 
-
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye! Have a nice day!";
+    }
 }
